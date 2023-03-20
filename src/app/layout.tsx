@@ -1,4 +1,7 @@
-import './globals.css'
+import Sidebar from './components/sections/Sidebar';
+// import './globals.css'
+import StyledJsxRegistry from './registry';
+import { GlobalStyles } from './styles/global'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <StyledJsxRegistry>
+          {children}
+          <GlobalStyles />
+        </StyledJsxRegistry>
+      </body>
     </html>
   )
 }
