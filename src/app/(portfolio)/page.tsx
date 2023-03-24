@@ -7,12 +7,14 @@ import Contact from '../components/sections/Contact';
 import Footer from '../components/sections/Footer';
 import WhatsNew from '../components/sections/WhatsNew/WhatsNew';
 import GetStarted from '../components/sections/GetStarted/GetStarted';
+import NewHome from '../components/sections/NewHome';
 
 export default function Home() {
   return (
     <>
       <div className="container">
         <Header />
+        {/* <NewHome /> */}
         <Nav />
         <About />
         <Experience />
