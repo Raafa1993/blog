@@ -6,7 +6,6 @@ import ShapeImg from "../../../../../public/shape-bg.png";
 import EthereumImg from "../../../../../public/ethereum-img.png";
 import OrbeImg from "../../../../../public/orbe-img.png";
 
-
 export default function NewHome() {
   return (
     <main className="main">
