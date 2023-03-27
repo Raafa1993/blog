@@ -132,7 +132,7 @@ const Ethereium = styled.div`
   display: inline-block;
   background: linear-gradient(95deg,
       var(--second-color) 0%,
-      var(--first-color)100%);
+      var(--first-color) 100%);
   padding: 1rem 2rem;
   border-radius: .25rem;
   color: var(--text-color);
@@ -402,6 +402,6 @@ const Ethereium = styled.div`
     left: 28rem;
   }
 }
-`
+`;
 
-export { Container, ContainerStart, ContainerEnd, Nav, Heading, DText };
+export { Container, ContainerStart, ContainerEnd, Nav, Heading, DText, Ethereium };

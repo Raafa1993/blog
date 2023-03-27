@@ -73,8 +73,8 @@ export default function Header() {
             >
               <SectionImage>
                 <Image
-                  width={440}
-                  height={600}
+                  // width={440}
+                  // height={600}
                   src={ImagePerfil}
                   alt={"foto perfil"}
                 />

@@ -12,17 +12,17 @@ import NewHome from '../components/sections/NewHome';
 export default function Home() {
   return (
     <>
-      <div className="container">
-        <Header />
-        {/* <NewHome /> */}
+      <main>
+        {/* <Header /> */}
+        <NewHome />
         <Nav />
         <About />
         <Experience />
         <Portfolio />
         <Contact />
 
+      </main>
         <Footer />
-      </div>
       {/* <div style={{ position: 'relative', display: 'flex' }}>
         <GetStarted />
         <div className="gradient-04 z-0" />

@@ -33,6 +33,7 @@ export const Contents = styled.div`
 
   width: 100%;
   height: 100%;
+
 `;
 
 export const ContentLeft = styled.div`
@@ -56,6 +57,7 @@ export const Title = styled.h1`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  white-space: nowrap;
 `;
 
 export const Subtitle = styled.h2`
@@ -202,22 +204,15 @@ export const FieldGroup = styled.div`
 export const ContentSubLeft = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  align-items: flex-end;
+  justify-content: flex-end;
   height: 100%;
-  margin-top: 340px;
-
-
 `;
 
 export const ContentSubRight = styled.div`
   display: flex;
+  align-items: flex-end;
   height: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  margin-bottom: 6rem;
 `;
 
 export const Mouse = styled.span`
