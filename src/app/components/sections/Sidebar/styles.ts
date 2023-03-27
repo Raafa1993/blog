@@ -15,7 +15,7 @@ export const Container = styled.nav<props>`
   top: 0;
 
   z-index: 998;
-  background: var(--background);
+  background: rgba(6, 9, 15, 0);
   -webkit-transition: 2s ease;
   transition: 2s ease;
   -webkit-backdrop-filter: blur(0px);

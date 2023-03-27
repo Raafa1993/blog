@@ -1,18 +1,20 @@
-import Header from '../components/sections/Header';
-import Nav from '../components/sections/Nav';
+import Image from 'next/image';
 import About from '../components/sections/About';
-import Experience from '../components/sections/Experience';
-import Portfolio from '../components/sections/Portfolio';
 import Contact from '../components/sections/Contact';
+import Experience from '../components/sections/Experience';
 import Footer from '../components/sections/Footer';
-import WhatsNew from '../components/sections/WhatsNew/WhatsNew';
-import GetStarted from '../components/sections/GetStarted/GetStarted';
+import Nav from '../components/sections/Nav';
 import NewHome from '../components/sections/NewHome';
+import Portfolio from '../components/sections/Portfolio';
+
+import ShapeImg from '../../../public/shape-bg.png';
 
 export default function Home() {
   return (
     <>
       <main>
+        <Image src={ShapeImg} alt="" className="home__shape-bg" />
+
         {/* <Header /> */}
         <NewHome />
         <Nav />

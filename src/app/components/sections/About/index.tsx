@@ -4,21 +4,21 @@ import ExperienceUi from '../../widgets/ExperienceUi';
 
 import Main from "../../../../../public/images/main.png";
 
-import { 
-  Container,
-  SectionContent,
-  ContentImageAbout,
-  SectionInfoAbout,
-  SectionExperience,
-  DescriptionAbout,
-} from './styles';
-import SectionTitle from '../../widgets/SectionTitle';
 import UserIcon from '@/app/assets/icons/UserIcon';
+import { Section } from '@/app/styles';
 import Button from '../../buttons/Button';
+import SectionTitle from '../../widgets/SectionTitle';
+import {
+  ContentImageAbout,
+  DescriptionAbout,
+  SectionContent,
+  SectionExperience,
+  SectionInfoAbout,
+} from './styles';
 
 export default function About() {
   return (
-    <Container id='About'>
+    <Section className={`container`} id='About'>
 
     <SectionTitle
       title='About me'
@@ -66,6 +66,6 @@ export default function About() {
 
       </SectionInfoAbout>
     </SectionContent>
-    </Container>
+    </Section>
   )
 }

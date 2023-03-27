@@ -167,17 +167,6 @@ export const Container = styled.section`
     bottom: -4rem;
   }
 
-  .home__shape-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    mix-blend-mode: soft-light;
-    opacity: .3;
-  }
-
   @media screen and (max-width: 340px) {
   .home__img-eth {
     width: 80px;

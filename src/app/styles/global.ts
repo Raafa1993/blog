@@ -44,6 +44,15 @@ export const GlobalStyles = createGlobalStyle`
 
     --header-height: 3.5rem;
 
+
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
 /*========== Colors ==========*/
 /*Color mode HSL(hue, saturation, lightness)*/
 --first-color: hsl(203, 71%, 60%);
@@ -135,9 +144,52 @@ export const GlobalStyles = createGlobalStyle`
     height: auto;
   }
 
+  main {
+    overflow: hidden;
+    position: relative;
+
+    .home__shape-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      mix-blend-mode: soft-light;
+      opacity: .1;
+    }
+  }
+
   .container {
-    width: var(--container-width-lg);
-    margin: 0 auto;
+    max-width: 1024px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+
+    @media screen and (max-width: 1024px) {
+      width: var(--container-width-md);
+    }
+
+    @media screen and (max-width: 600px) {
+      width: var(--container-width-ms);
+    }
+
+    @media screen and (min-width: 1024px){
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media screen and (max-width: 320px){
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .section {
+    padding: 6.5rem 0 1rem;
+    
   }
 
   @media (max-width: 1080px) {
