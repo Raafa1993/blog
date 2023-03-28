@@ -258,15 +258,15 @@ export const Container = styled.section`
   }
 }
 
-@media screen and (min-width: 1048px) {
-  .container {
-    margin-inline: auto;
+  @media screen and (min-width: 1048px) {
+    .container {
+      margin-inline: auto;
+    }
   }
-}
 
-@media screen and (min-width: 1500px) {
-  .home__shape-big-2 {
-    left: 28rem;
+  @media screen and (min-width: 1500px) {
+    .home__shape-big-2 {
+      left: 28rem;
+    }
   }
-}
 `;

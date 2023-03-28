@@ -181,6 +181,7 @@ export const GlobalStyles = createGlobalStyle`
     @media screen and (max-width: 320px){
       margin-left: var(--mb-1);
       margin-right: var(--mb-1);
+   }
   }
 
   .grid {
