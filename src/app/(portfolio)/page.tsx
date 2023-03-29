@@ -17,11 +17,11 @@ export default function Home() {
 
         {/* <Header /> */}
         <NewHome />
-        <Nav />
         <About />
         <Experience />
         <Portfolio />
         <Contact />
+        <Nav />
 
       </main>
         <Footer />

@@ -215,7 +215,7 @@ export const Container = styled.section`
   }
 
   .home__img-orbe {
-    width: 500px;
+    width: 360px;
   }
 
   .home__img-eth {
