@@ -1,4 +1,3 @@
-import React from 'react'
 
 import { Container, SectionInfo } from './styles';
 
@@ -11,10 +10,7 @@ type PropsExpUi = {
 export default function ExpUi({ icon: Icon, subTitle, title }: PropsExpUi) {
   return (
     <Container>
-
       {Icon}
-      {/* <UserIcon /> */}
-
       <SectionInfo>
         <h1 className='titleExperienceUi'>{title}</h1>
         <span className='subTitleExperienceUi'>{subTitle}</span>

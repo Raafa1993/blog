@@ -283,12 +283,34 @@ export const GlobalStyles = createGlobalStyle`
     transform: rotate(-53.13deg);
   }
 
+  .gradient-07 {
+    position: absolute;
+    width: 280px;
+    height: 100vh;
+    right: 0%;
+    top: 30%;
+
+    background: rgba(45, 72, 152, 0.75);
+    filter: blur(200px);
+    transform: rotate(-285deg);
+    z-index: -1;
+  }
+
   .gradient-05 {
     background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.04) 0%,
       rgba(255, 255, 255, 0) 100%
     );
+  }
+
+  .gradient-06 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(90px);
+    background-color: var(--first-color);
+    top: 16rem;
+    right: -6.5rem;
   }
 
   .feedback-gradient {

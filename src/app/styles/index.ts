@@ -16,6 +16,7 @@ const Container = styled.div`
 `;
 
 const Section = styled.section`
+  position: relative;
   padding: 6.5rem 0 1rem;
 
   @media screen and (min-width: 767px){

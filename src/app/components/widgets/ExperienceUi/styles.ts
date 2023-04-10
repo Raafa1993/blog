@@ -4,11 +4,15 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   background-color: var(--content);
-  padding: 18px;
+  /* padding: 12px; */
   border-radius: 12px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  width: 160px;
+  height: 120px;
 `;
 
 export const SectionInfo = styled.div`

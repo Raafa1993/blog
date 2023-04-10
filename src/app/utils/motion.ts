@@ -110,8 +110,10 @@ export const planetVariants = (direction: any) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : '100%',
     rotate: 120,
+    opacity: 0
   },
   show: {
+    opacity: 1,
     x: 0,
     rotate: 0,
     transition: {
